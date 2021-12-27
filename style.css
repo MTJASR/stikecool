@@ -1,0 +1,39 @@
+
+.name-nav{
+    color:#008037 !important ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nav-link{
+    color:#008037 !important ;
+}
+
+.card{
+    padding: 5px !important;
+}
+
+.card-header{
+    background-color: #008037;
+}
+
+.navbar-toggler{
+    background-color: #008037 !important;
+    border-radius: 5px;
+    
+}
+.navbar-toggler-icon{
+    background-color: #7ED957 !important;
+    border-radius: 5px;
+    
+}
+
+@media (min-width:768px) {
+    .card-deck > .card
+    {
+        width: 40%;
+        flex-wrap: wrap;
+        flex: initial; 
+    }
+}
+
